@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+  font-family: "Source Sans Pro", "Mitr", sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  transition: all ease-in 100ms;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.container {
+  display: flex;
+  padding: 10px;
+}
+
+.message-input {
+  display: flex;
+
+  border-radius: 15px;
+  width: 300px;
+  border: 1px solid gainsboro;
+  text-align: center;
+  height: 25px;
+
+  margin: 50px 20px 10px 20px;
+}
+.message-container {
+  background-color: lightsteelblue;
+  padding: 40px;
+  border-radius: 20px;
+  min-width: 300px;
+  min-height: 300px;
+}
+input.profile-input {
+  border-radius: 15px;
+  width: 300px;
+  border: 1px solid gainsboro;
+  text-align: center;
+  height: 25px;
+}
+
+input:focus {
+  outline: none;
+}
+.imgPreview {
+  margin: 25px;
+  padding: 10px;
+}
+.message-outline {
+  display: flex;
+  font-family: "Mitr", sans-serif;
+}
+
+.message-outline > .message-box {
+  position: relative;
+  border-radius: 7px;
+  padding: 5px;
+  margin-bottom: 8px;
+}
+.message-outline > img {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin: 0px 10px 5px 0px;
+}
+.sender-message {
+  background: #acdf87;
+
+  justify-content: flex-end;
+}
+label.receiver {
+  color: #dcdcdc;
+}
+.sender-outline {
+  justify-content: flex-end;
+}
+.sender-outline > img {
+  margin-left: 7px;
+  order: 2;
+}
+label.sender {
+  color: #acdf87;
+}
+.receiver-message {
+  background: #dcdcdc;
+}
+.receiver-outline {
+  justify-content: flex-start;
+}
+
+.imgPreview > img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2.5px solid lightgrey;
+  margin: auto;
+}
+
+.profile-input-outline {
+  margin: auto;
+  padding: 10px;
+}
+
+.profile-input-outline > .fileInput {
+  width: 80px;
+}
